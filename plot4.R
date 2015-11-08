@@ -103,7 +103,7 @@ construct_plot4 <- function(){
     points(dates, Sub_metering_2, type="l", col="red")
     points(dates, Sub_metering_3, type="l", col="blue")
     legend("topright", lty = 1, bty="n", col=c("black", "red", "blue"), legend=c("Sub_metering_1", 
-                                                                        "Sub_metering_2", "Sub_metering_3"))
+                        "Sub_metering_2", "Sub_metering_3"))
     plot(dates, voltage, type="l", xlab="datetime", ylab="Voltage")
     plot(dates, reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
     dev.off()
