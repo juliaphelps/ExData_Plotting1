@@ -27,7 +27,8 @@
 ##   - downloading and/or loading the 'lubridate' package (if necessary),
 ##   - downloading and unzipping a specific set of data (if necessary),
 ##   - reading in the section of the data that corresponds to the dates 2007-02-01 and 2007-02-02,
-##   - subsetting the Date, Time, and all three Sub_metering variables and combining as necessary,
+##   - subsetting the Date, Time, Global_active_power, Global_reactive_power, Voltage, and all three
+##     Sub_metering variables and combining as necessary,
 ##   - using lubridate to reformat Date/Time data,
 ##   - setting the global graphics parameters to allow for displaying 4 plots on one page by column,
 ##   - creating plot 1:  a linear plot of the 'Global_active_power' variable by weekday,
